@@ -29,6 +29,8 @@ public class SpriteGlowLight2D : MonoBehaviour
 
         l2d = gameObject.AddComponent<Light2D>();
         l2d.lightType = Light2D.LightType.Point;
+        
+        
     }
 
     void Update()
